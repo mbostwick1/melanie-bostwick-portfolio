@@ -1,0 +1,174 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Bar */
+
+.navbar-brand {
+  /* background-color: #4aaaa5; */
+  /* color: white !important; */
+  font-family: Maven-Bold, "serif";
+  font-size: 30px;
+  margin-left: 1%;
+  background-color: transparent;
+  color:#3b3b3b;
+}
+
+.nav-link {
+  font-family: Maven-Bold, "serif";
+  font-size: 20px;
+  color: #3b3b3b;
+}
+
+
+/* Background pattern */
+body {
+  background-image: url("images/panda.jpg");
+  background-repeat: repeat;
+}
+
+.row {
+  position: relative;
+}
+
+/* FONT */
+
+@font-face {
+  font-family: Maven-Bold;
+  src: url("fonts/MavenProLight-300.otf") format("opentype");
+}
+@font-face {
+  font-family: Maven-Medium;
+  src: url("fonts/MavenProLight-200.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Maven-Regular;
+  src: url("fonts/MavenProLight-100.otf") format("opentype");
+}
+
+/* Pages styling */
+
+.row {
+  /* Positioning */
+  margin: auto;
+  padding: 30px;
+}
+
+.article-container {
+  position: absolute;
+}
+
+
+
+h1 {
+  /* typography */
+  font-family: Maven-Bold, "serif";
+  font-size: 45px;
+  text-align: center;
+  color: #3b3b3b;
+  padding-top: 0px;
+}
+
+#about-me-image {
+  /* position: relative; */
+  /* about me image */
+  margin-top: 20px;
+  width: 350px;
+  height: 350px;
+  align-items: center;
+}
+
+.about-me-text {
+  /* about me text */
+  font-family: Maven-Bold, "serif";
+  font-size: 17px;
+  padding-bottom: 150px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-me-content {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 150px;
+}
+
+h2 {
+  font-family: Maven-Bold, "serif";
+  padding-bottom: 5px;
+}
+
+.about-me-para {
+  padding-top: 30px;
+}
+
+/* Portfolio Images */
+
+.port-images {
+  width: 350px;
+  height: 350px;
+  padding: 30px;
+}
+
+/* Contact */
+
+.form-group {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+
+/* Contact Button Styling */
+.btn {
+  margin-bottom: 30px;
+  background-color: #e28c53;
+  border: 0 none;
+  border-radius: 0;
+  text-align: center;
+}
+
+.btn:hover {
+    background-color: #ca6d2f;
+}
+
+a {
+  font-family: Maven-Bold, "serif";
+  font-size: 23px;
+  color: #3b3b3b;
+  padding: 10px;
+}
+
+a:hover {
+  color: #8b8b8a;
+  text-decoration: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .form-group {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* FOOTER */
+
+footer {
+  position: fixed;
+  background-color: white;
+  text-align: center;
+  line-height: 3em;
+  margin-top: auto;
+  left: 0;
+  bottom: 0;
+  clear: both;
+  width: 100%;
+  height: 60px;
+  background-color: #3b3b3b;
+  border-top: 5px solid #e28c53;
+  color: #8b8b8a;
+}
