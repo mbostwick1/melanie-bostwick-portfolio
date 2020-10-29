@@ -24,7 +24,7 @@ html, body {
 
 /* Background pattern */
 body {
-  background-image: url("images/panda.jpg");
+  background-image: url("../images/panda.jpg");
   background-repeat: repeat;
 }
 
@@ -36,16 +36,16 @@ body {
 
 @font-face {
   font-family: Maven-Bold;
-  src: url("fonts/MavenProLight-300.otf") format("opentype");
+  src: url("../fonts/MavenProLight-300.otf") format("opentype");
 }
 @font-face {
   font-family: Maven-Medium;
-  src: url("fonts/MavenProLight-200.otf") format("opentype");
+  src: url("../fonts/MavenProLight-200.otf") format("opentype");
 }
 
 @font-face {
   font-family: Maven-Regular;
-  src: url("fonts/MavenProLight-100.otf") format("opentype");
+  src: url("../fonts/MavenProLight-100.otf") format("opentype");
 }
 
 /* Pages styling */
@@ -113,6 +113,15 @@ h2 {
   height: 350px;
   padding: 30px;
 }
+
+/* .flex {
+  text-align: center;
+  align-content: center;
+  display: flex;
+  margin: 0 auto;
+  display: -webkit-flex; /* Safari */ 
+
+}   */
 
 /* Contact */
 
