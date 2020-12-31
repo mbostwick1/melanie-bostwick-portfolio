@@ -7,12 +7,18 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
+      media="all"
+      type="text/css"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css"
+    />
+    <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <!-- NAV BAR-->
@@ -44,45 +50,80 @@
               <a class="nav-link" href="./index.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./assets/files/MelanieBostwick_Resume.pdf" download="MelanieBostwick_Resume">Resume</a>
+              <a
+                class="nav-link"
+                href="./assets/files/MelanieBostwick_Resume.pdf"
+                download="MelanieBostwick_Resume"
+                >Resume</a
+              >
             </li>
           </ul>
         </div>
       </nav>
     </header>
     <!-- PORTFOLIO  -->
-    <div class="row">
-      <div class="col-md-2"></div>
-      <aside class="col-md-8">
-          <article class="about-me-content">
-            <h1>Check out some projects!</h1>
-            <div class="flex">
-            <div> 
+    <!-- Hero content: will be in the middle -->
+    <section class="section">
+      <div class="container has-text-centered">
+        <h1>Check out some projects!</h1>
+        <div class="columns is-centered is-multiline">
+          <!-- FIRST PROJECT -->
+        <div class="column is-4" id="column" style="margin: 10px;">
+          <figure class="image is-350x350">
+            <img
+              src="./assets/images/barkmatch.jpg"
+              alt="dog howling image"
+            />
+            <h4>BarkMatch</h4>
+            <a href="https://vast-river-69240.herokuapp.com">Demo</a>
+            <a href="https://github.com/mbostwick1/BarkMatch-project2">GitHub</a>
+          </figure>
+        </div>
+        <!-- SECOND PROJECT -->
+        <div class="column is-4" id="column" style="margin: 10px;">
+          <figure class="image is-350x350">
+            <img
+              src="./assets/images/Quiz.gif"
+              alt="Animated Box list icon"
+              href="./images/MelanieBostwick_Resume.pdf"
+            />
+            <h4>Javascript Coding Quiz</h4>
+            <a href="https://mbostwick1.github.io/my-javascript-coding-quiz/"
+              >Demo</a
+            >
+            <a href="https://github.com/mbostwick1/my-javascript-coding-quiz"
+              >GitHub</a
+            >
+          </figure>
+        </div>
+        <!-- THIRD PROJECT -->
+        <div class="column is-4" id="column" style="margin: 10px;">
+          <figure class="image is-350x350">
             <img
               src="./assets/images/Inspirator.gif"
               alt="Animated light bulb"
-              class="port-images"
             />
             <h4>The Inspirator</h4>
             <a href="https://mbostwick1.github.io/GT-Project1/">Demo</a>
             <a href="https://github.com/mbostwick1/GT-Project1">GitHub</a>
-          </div>
-          <div>
-            <img
-              src="./assets/images/Quiz.gif"
-              alt="Animated Box list icon"
-              class="port-images"
-              href="./images/MelanieBostwick_Resume.pdf" 
-            />
-            <h4>Javascript Coding Quiz</h4>
-            <a href="https://mbostwick1.github.io/my-javascript-coding-quiz/">Demo</a>
-            <a href="https://github.com/mbostwick1/my-javascript-coding-quiz">GitHub</a>
-          </div>
+          </figure>
         </div>
-          </article>
-      </aside>
-      <div class="col-md-2"></div>
-    </div>
+
+        <!-- FOURTH PROJECT -->
+        <div class="column is-4" id="column" style="margin: 10px;">
+          <figure class="image is-350x350">
+            <img
+              src="./assets/images/EmployeeTracker.jpg"
+              alt="Employee Tracker Text on image"
+            />
+            <h4>Employee Management Tracker</h4>
+            <a href="https://mbostwick1.github.io/Mel-Employee-Tracker/">Demo</a>
+            <a href="https://github.com/mbostwick1/Mel-Employee-Tracker">GitHub</a>
+          </figure>
+        </div>
+
+      </div>
+    </section>
 
     <!-- FOOTER  -->
     <footer class="footer">© Copyright</footer>
